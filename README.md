@@ -16,6 +16,7 @@ Al ser tu primer proyecto se te acompañará en todo el proceso de
 desarrollo, guiándote en el paso a paso y brindándote las herramientas
 necesarias para que puedas llevarlo adelante junto con el resto del
 equipo.
+</p>
 # Mission#2 🚀
 <p>¡Continuamos trabajando en nuestro proyecto!
 Ahora que contamos con la estructura HTML del proyecto el próximo
