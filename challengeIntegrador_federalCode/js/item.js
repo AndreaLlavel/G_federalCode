@@ -1,4 +1,4 @@
-//Mision 3.Consigna 2: Manipulamos el DOM.
+//Mision 3.Consigna 2: Manipulamos el DOM. Andrea Llavel
 const add = document.querySelector('#add');
 const subtract = document.querySelector('#subtract');
 //Modificar el valor al input
@@ -7,6 +7,6 @@ const quantity = document.querySelector('#quantity');
 add.addEventListener('click', () => quantity.value = Number(quantity.value) + 1);
 subtract.addEventListener('click', () => {
 
-quantity.value = Number(quantity.value) - 1
+quantity.value = Number(quantity.value) - 1   //Esta parte revizar para que se ejecute correctamente
 
 })
