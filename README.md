@@ -4,7 +4,7 @@
 <h2>
 <p>| ✔ Clarisa Espertino |</p>
 <p>| ✔ Andrea Llavel     |</p> 
-<p> |✔ Rosa Maria Mariño </p>
+<p> |✔ Rosa Maria Mariño |</p>
 </h2>
 # Missions 1:
 <p>
@@ -58,3 +58,10 @@ Para esto debemos llevar adelante las siguientes tareas:
 - Migrar los archivos HTML del proyecto a la capa de VISTA de
 nuestra aplicación MVC -> ruta: src/views
 - Crear una carpeta partials en la ruta src/views/, crear los archivos
+- Incluir el header y el footer a cada vista del site.
+- Adaptar los componentes internos de cada vista en los casos que
+se deban recibir datos dinámicos desde el controlador. Por ej. en la
+vista de SHOP en lugar de tener 9 cards con items estáticos, crear
+la lógica para que el código HTML de una sola card se repita todas
+las veces necesarias como tantos items reciba.
+
