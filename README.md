@@ -37,3 +37,24 @@ JavaScript cambiar el valor del input con la cantidad de ítems en cada
 click, sumando o restando una unidad dependiendo el botón presionado.
 También coloca una validación para evitar la selección de números
 negativos.
+Mission#4 �
+<p>
+Llegó el momento de migrar nuestro proyecto Frontend a un esquema
+Fullstack, preparando todo lo necesario para crear nuestro backend e
+integrar ambos desarrollos.
+Por eso para este mission necesitaremos:
+1. Migrar nuestro código a un proyecto de NodeJS + Express.
+2. Crear un servidor que devuelva archivos estáticos declarando una
+carpeta 'public'.
+</p>
+Mission#5
+<p>
+En esta ocasión nos concentraremos en migrar nuestros archivos HTML
+al motor de plantillas EJS, además crearemos la lógica necesaria para
+devolver estos archivos y sus datos frente a la petición de las diferentes
+rutas de nuestra aplicación.
+Para esto debemos llevar adelante las siguientes tareas:
+- Instalar y configurar el motor de plantillas EJS.
+- Migrar los archivos HTML del proyecto a la capa de VISTA de
+nuestra aplicación MVC -> ruta: src/views
+- Crear una carpeta partials en la ruta src/views/, crear los archivos
