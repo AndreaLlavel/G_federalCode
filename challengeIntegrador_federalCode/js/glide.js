@@ -1,3 +1,4 @@
+//MIssions 3: Andrea Llavel
 new Glide('.glide', {
     type: 'carousel',
     startAt: 0,
