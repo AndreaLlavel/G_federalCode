@@ -3,9 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <meta name="keywords" content=""/>
+    <link rel="shortcut icon" href="../public/img/branding/isotype.svg" type="image/x-icon"/>
+
     <title>Home | Funkoshop</title>
    
-    <link rel="stylesheet" href="./css/index.css">
+    <!--<link rel="stylesheet" href="./css/index.css">-->
+    <link rel="stylesheet" href="../public/css/index.css">
 </head>
 <body>
     <header class="page-header"><!--Inicio Header-->
@@ -21,7 +29,6 @@
             <ul class="submenu">
                 <li class="submenu__item">
                 <a href="" class="submenu__link">Funkos</a>
-
                 </li>
                 <li class="submenu__item">
                 <a href="" class="submenu__link">Remeras</a>
@@ -141,8 +148,12 @@
         </ul>
         </div>
         <div class="glide__arrows" data-glide-el="controls">
-            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><iconify-icon icon="tabler:chevron-left"></iconify-icon></button>
-            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><iconify-icon icon="tabler:chevron-right"></iconify-icon></iconify-icon></button>
+         <!--    <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><iconify-icon icon="tabler:chevron-left"></iconify-icon></button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><iconify-icon icon="tabler:chevron-right"></iconify-icon></button>
+        -->
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><iconify-icon class="slider__icon" icon="ic:round-chevron-left"></iconify-icon></button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><iconify-icon class="slider__icon" icon="ic:round-chevron-right"></iconify-icon></button>
+        
         </div>
     </section>
 </main>
@@ -168,9 +179,11 @@
      </nav>
  <p class="footer__copy">All rights reserved 2023 - Funkoshop &copy;</p>
 </footer>
-    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-    <script src="./js/glide.js"></script>
-    
+    <script src="../public/js/glide.js"></script>
+    <script src="../public/js/item.js"></script>
+    <script src="https://kit.fontawesome.com/8ee29917fc.js" crossorigin="anonymous"></script>
 </body>
 </html>
