@@ -3,9 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <meta name="keywords" content=""/>
+    <link rel="shortcut icon" href="../public/img/branding/isotype.svg" type="image/x-icon"/>
+
     <title>Home | Funkoshop</title>
    
-    <link rel="stylesheet" href="./css/index.css">
+    <!--<link rel="stylesheet" href="./css/index.css">-->
+    <link rel="stylesheet" href="../public/css/index.css">
 </head>
 <body>
     <header class="page-header"><!--Inicio Header-->
@@ -20,26 +28,26 @@
             <a class="navbar__link with-icon" href="./pages/shop/item.html">SHOP<iconify-icon icon="tabler:chevron-down"></iconify-icon></a>
             <ul class="submenu">
                 <li class="submenu__item">
-                <a href="" class="submenu__link">Funkos</a>
-
+                <a href="./img/funkos-banner.webp" class="submenu__link">Funkos</a>
                 </li>
                 <li class="submenu__item">
-                <a href="" class="submenu__link">Remeras</a>
+                <a href="./img/star-wars/luke-1.webp" class="submenu__link">Remeras</a>
                 </li>
                 <li class="submenu__item">
-                <a href="" class="submenu__link">LLaveros</a>
+                <a href="./img/pokemon/pikachu-1.webp" class="submenu__link">LLaveros</a>
                 </li>
             </ul>         
             </li>
             <li>
-            <a class="navbar__link" href="../contact.html">CONTACTO</a>
+            <a class="navbar__link" href="./pages/shop/contact.html">CONTACTO</a>
             </li class="navbar__item">
             <li>
-            <a class="navbar__link" href="./pages/admin/login.html">LOGIN</a>
+            <a class="navbar__link" href="./pages/shop/login.html">LOGIN</a>
             </li class="navbar__item">
             <li class="navbar__item">
-            <a class="navbar__cart" href="./pages/cart.html">
+            <a class="navbar__cart" href="./pages/shop/cart.html">
                 <img src="./img/icons/cart-icon.svg" alt="icono de carrito"></a>
+                
             </li>
         </ul>
     
@@ -141,8 +149,8 @@
         </ul>
         </div>
         <div class="glide__arrows" data-glide-el="controls">
-            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><iconify-icon icon="tabler:chevron-left"></iconify-icon></button>
-            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><iconify-icon icon="tabler:chevron-right"></iconify-icon></iconify-icon></button>
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><iconify-icon class="slider__icon" icon="ic:round-chevron-left"></iconify-icon></button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><iconify-icon class="slider__icon" icon="ic:round-chevron-right"></iconify-icon></button>       
         </div>
     </section>
 </main>
@@ -150,7 +158,7 @@
     <nav class="navbar container">
          <ul class="navbar__item">
              <li class="navbar__item">
-                 <a class="navbar__link" href="./pages/shop/shop.html">SHOP</a>
+                 <a class="navbar__link" href="./pages/shop.html">SHOP</a>
              </li>
              <li class="navbar__item">
                  <a class="navbar__link" href="./pages/register.html">REGISTRARSE</a>
@@ -168,9 +176,11 @@
      </nav>
  <p class="footer__copy">All rights reserved 2023 - Funkoshop &copy;</p>
 </footer>
-    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
-    <script src="./js/glide.js"></script>
-    
+    <script src="../public/js/glide.js"></script>
+    <script src="../public/js/item.js"></script>
+    <script src="https://kit.fontawesome.com/8ee29917fc.js" crossorigin="anonymous"></script>
 </body>
 </html>
