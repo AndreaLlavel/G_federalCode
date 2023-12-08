@@ -1,3 +1,4 @@
+
 //archivo que tiene la logica del server
 const express = require('express');
 const app = express();
@@ -5,6 +6,10 @@ const mainRoutes = require('./src/routes/mainRoutes');
 const shopRoutes = require('./src/routes/shopRoutes');
 const adminRoutes = require('./src/routes/adminRoutes');
 const authRoutes = require('./src/routes/authRoutes');
+const path = require('path');
+
+app.set('views', path.join(__dirname, 'src/views'));
+app.set('view engine', 'ejs');
 
 app.use(express.static('public'))
 app.use("/",mainRoutes);
