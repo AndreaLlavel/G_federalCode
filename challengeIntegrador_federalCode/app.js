@@ -1,4 +1,4 @@
-//archivo que tiene la logica del server
+//archivo que tiene la logica del server. Rosa Mariño
 const express = require('express');
 const app = express();
 const mainRoutes = require('./src/routes/mainRoutes');

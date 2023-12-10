@@ -134,7 +134,7 @@
                     miBoton.dataset.item = item;
                     miBoton.addEventListener('click', borrarItemCarrito);
                     // Mezclamos nodos
-                    miNodo.appendChild(miBoton);
+                    miNodo.appendChild(miBoton); 
                     DOMcarrito.appendChild(miNodo);
                 });
                 // Renderizamos el precio total en el HTML
@@ -224,6 +224,9 @@
                 <p class="text-right">Total=<span id="total"></span>$</p>
                 
                 <button id="boton-vaciar" class="btn btn-warning">Vaciar </button>
+                <nav>
+                    <a href="../../index.html">Volver</a>
+                </nav>
             </aside>
         </div>           
     </div>
