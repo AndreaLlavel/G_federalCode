@@ -64,4 +64,8 @@ se deban recibir datos dinámicos desde el controlador. Por ej. en la
 vista de SHOP en lugar de tener 9 cards con items estáticos, crear
 la lógica para que el código HTML de una sola card se repita todas
 las veces necesarias como tantos items reciba.
-
+</p>
+Missions#6
+<p>
+Crear base de Datos
+</p>
