@@ -1,4 +1,4 @@
-//Utlizar express
+//Utilizar express
 const express = require('express')
 const router = express.Router()
 const controller = require('../controllers/index.controller')

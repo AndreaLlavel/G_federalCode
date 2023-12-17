@@ -9,7 +9,7 @@ const adminRoutes = require('./src/routes/adminRoutes');
 const authRoutes = require('./src/routes/authRoutes');
 const { error } = require('console');
 //Setting, configuracion del servidor
-//app.set('port', process.env.PORT || 4000);
+//app.set('port', process.env.PORT || 3000);
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'src/views'));
 app.set('view engine', 'ejs');
@@ -27,7 +27,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(morgan("dev"));
 
 //Routers
-app.use(require('./routes/index.routes'))
+app.use(require('./routes/index.routes'));
 
 //Control de Errores
 app.use((err, req, res, next)=>{
