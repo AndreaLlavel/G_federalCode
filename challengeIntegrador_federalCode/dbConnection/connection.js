@@ -1,7 +1,6 @@
-import { createConnection } from 'mysql2'
+const mysql2 = require('mysql2')
 
-export default () =>
-    createConnection(
+mysql2.createConnection(
     {
     host:'localhost',
     user: 'root',
@@ -11,4 +10,6 @@ export default () =>
     },
     'single'
 )
+
+module.exports = mysql2
 
