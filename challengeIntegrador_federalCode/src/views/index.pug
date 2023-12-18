@@ -31,11 +31,10 @@ html(lang='es')
                                         i.fas.fa-trash 
             #user-info.user-info 
                 .top-bar 
-                    h1#user-info-title.top-bar__title New 
+                    h1#user-info-title.top-bar__title New User
                     User 
                 form(action="/add-user" method="POST")
-                #user-info-form.content__user. 
-                content__user--user-info 
+                #user-info-form.content__user.content__user--user-info 
                     label Name 
                         input(type="text" name="name")
                         #user-info-name.content__text 
@@ -44,7 +43,7 @@ html(lang='es')
                         #user-info-surname.content__text
                     label Email 
                         input(type="text" name="email")
-                        #user-info-email.content__text.content__text--email
+                        #user-info-email.content__text.content
                     button#user-info-button.button.button--edit Add User 
                     button.button.button--cancel Cancel 
             script(src="js/script-min.js")
