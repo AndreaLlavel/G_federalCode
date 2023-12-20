@@ -6,7 +6,7 @@ mysql2.createConnection(
     user: 'root',
     password: '',
     port: 3306,
-    database: 'crud'
+    database: 'crud.js'
     },
     'single'
 )

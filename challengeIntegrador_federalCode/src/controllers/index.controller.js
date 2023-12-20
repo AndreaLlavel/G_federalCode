@@ -1,4 +1,4 @@
-const connection = require('../../dbConnection/connection')
+const connection = require('../../src/dbConnection/connection')
 const conn = connection()
 
 const controller = {}

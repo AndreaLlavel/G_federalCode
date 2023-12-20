@@ -3,15 +3,15 @@ const express = require('express');
 const path = require('path');
 const morgan = require('morgan');
 const app = express();
-const mainRoutes = require('./src/routes/mainRoutes');
-const shopRoutes = require('./src/routes/shopRoutes');
-const adminRoutes = require('./src/routes/adminRoutes');
-const authRoutes = require('./src/routes/authRoutes');
+const mainRoutes = require('./routes/mainRoutes');
+const shopRoutes = require('./routes/shopRoutes');
+const adminRoutes = require('./routes/adminRoutes');
+const authRoutes = require('./routes/authRoutes');
 const { error } = require('console');
 //Setting, configuracion del servidor
-//app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 3000);
 app.set('view engine', 'pug');
-app.set('views', path.join(__dirname, 'src/views'));
+app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 //app.use(express.static('public'));
@@ -36,7 +36,7 @@ app.use((err, req, res, next)=>{
      //despues de la ejecucion principal
 
 //Public
-app.use(express.static(path.join(__dirname, '../public')));
+app.use(express.static(path.join(__dirname, '../Public')));
 
 app.listen(app.get("port"), ()=>{
     console.log(`Server on port ${app.get("port")}`);
